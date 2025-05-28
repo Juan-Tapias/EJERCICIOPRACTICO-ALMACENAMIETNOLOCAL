@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📋 Aplicación Web - Lista de Tareas</h1>
+
+    <nav class="menu">
+        <button onclick="agregarTareaVista()">➕ Añadir tarea</button>
+        <button onclick="vistaTareas()">📄 Ver tareas</button>
+        <button onclick="marcarVistar()">✅ Marcar completadas</button>
+        <button onclick="vistaEliminarTarea()">🗑️ Eliminar tarea</button>
+        <button onclick="salir()">🧹 Limpiar</button>
+    </nav>
+
+    <section id="contenedorTareas" class="contenedor-tareas">
+        <!-- Aquí se muestra el contenido dinámico -->
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
